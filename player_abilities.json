@@ -1,0 +1,102 @@
+[
+  {
+    "BID": "BA001",
+    "Name": "Double Jump",
+    "Description": "Allows the player to jump a second time in mid-air.",
+    "Variables": {
+      "jumpForce": 12.0,
+      "maxJumps": 2,
+      "staminaCost": 10
+    }
+  },
+  {
+    "BID": "BA002",
+    "Name": "Wall Climb",
+    "Description": "Allows the player to climb walls.",
+    "Variables": {
+      "climbSpeed": 5.0,
+      "climbDuration": 3.0,
+      "energyCost": 15
+    }
+  },
+  {
+    "BID": "BA003",
+    "Name": "Dash",
+    "Description": "Quickly moves the player in a direction.",
+    "Variables": {
+      "dashDistance": 8.0,
+      "cooldown": 2.0,
+      "invincibilityFrames": 0.5
+    }
+  },
+  {
+    "BID": "BA004",
+    "Name": "Invisibility",
+    "Description": "Makes the player invisible to enemies for a short time.",
+    "Variables": {
+      "duration": 5.0,
+      "cooldown": 10.0,
+      "energyCost": 20
+    }
+  },
+  {
+    "BID": "BA005",
+    "Name": "Health Regen",
+    "Description": "Gradually restores health over time.",
+    "Variables": {
+      "regenRate": 1.5,
+      "duration": 10.0,
+      "cooldown": 15
+    }
+  },
+  {
+    "BID": "BA006",
+    "Name": "Grapple Hook",
+    "Description": "Allows player to grapple to surfaces.",
+    "Variables": {
+      "range": 15.0,
+      "pullSpeed": 7.0,
+      "cooldown": 3.0
+    }
+  },
+  {
+    "BID": "BA007",
+    "Name": "Super Jump",
+    "Description": "Increases jump height massively for a single jump.",
+    "Variables": {
+      "multiplier": 2.5,
+      "cooldown": 5.0,
+      "soundEffect": "boing"
+    }
+  },
+  {
+    "BID": "BA008",
+    "Name": "Time Slow",
+    "Description": "Slows time for everything but the player.",
+    "Variables": {
+      "duration": 3.0,
+      "cooldown": 12.0,
+      "speedFactor": 0.5
+    }
+  },
+  {
+    "BID": "BA009",
+    "Name": "Shield",
+    "Description": "Creates a temporary shield that blocks damage.",
+    "Variables": {
+      "shieldHP": 50,
+      "duration": 6.0,
+      "cooldown": 8.0
+    }
+  },
+  {
+    "BID": "BA0010",
+    "Name": "Teleport",
+    "Description": "Instantly moves player to a short distance location.",
+    "Variables": {
+      "range": 10.0,
+      "cooldown": 6.0,
+      "energyCost": 25
+    }
+  }
+]

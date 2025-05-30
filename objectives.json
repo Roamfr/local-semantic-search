@@ -1,0 +1,87 @@
+[
+  {
+    "OID": "OBJ001",
+    "Title": "Collect Coins",
+    "Description": "Collect 50 coins to win.",
+    "WinCondition": {
+      "coins": 50
+    }
+  },
+  {
+    "OID": "OBJ002",
+    "Title": "Defeat Enemies",
+    "Description": "Defeat 10 enemies.",
+    "WinCondition": {
+      "enemiesDefeated": 10
+    }
+  },
+  {
+    "OID": "OBJ003",
+    "Title": "Survive",
+    "Description": "Stay alive for 3 minutes.",
+    "WinCondition": {
+      "timeLimit": 180,
+      "health": ">0"
+    }
+  },
+  {
+    "OID": "OBJ004",
+    "Title": "Reach Exit",
+    "Description": "Find and reach the level exit.",
+    "WinCondition": {
+      "reachedExit": true
+    }
+  },
+  {
+    "OID": "OBJ005",
+    "Title": "Escort NPC",
+    "Description": "Escort the NPC safely to the checkpoint.",
+    "WinCondition": {
+      "npcHealth": ">0",
+      "npcAtCheckpoint": true
+    }
+  },
+  {
+    "OID": "OBJ006",
+    "Title": "Activate Switches",
+    "Description": "Activate all 5 switches.",
+    "WinCondition": {
+      "switchesActivated": 5
+    }
+  },
+  {
+    "OID": "OBJ007",
+    "Title": "Destroy Core",
+    "Description": "Destroy the enemy power core.",
+    "WinCondition": {
+      "coreDestroyed": true
+    }
+  },
+  {
+    "OID": "OBJ008",
+    "Title": "Defend Zone",
+    "Description": "Defend the area for 2 minutes.",
+    "WinCondition": {
+      "zoneIntegrity": ">50%",
+      "timeLimit": 120
+    }
+  },
+  {
+    "OID": "OBJ009",
+    "Title": "Capture Flag",
+    "Description": "Capture the enemy flag and return it.",
+    "WinCondition": {
+      "flagCaptured": true,
+      "returned": true
+    }
+  },
+  {
+    "OID": "OBJ0010",
+    "Title": "Hack Terminal",
+    "Description": "Hack into a secure terminal undetected.",
+    "WinCondition": {
+      "hacked": true,
+      "alarmTriggered": false
+    }
+  }
+]

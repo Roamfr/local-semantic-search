@@ -1,0 +1,102 @@
+[
+  {
+    "ShaderID": "SH001",
+    "Name": "Neon Glow",
+    "Style": "Emissive",
+    "ColorPalette": [
+      "#FF00FF",
+      "#00FFFF"
+    ],
+    "Notes": "Used for sci-fi or cyberpunk environments."
+  },
+  {
+    "ShaderID": "SH002",
+    "Name": "Cartoon Outline",
+    "Style": "Toon",
+    "ColorPalette": [
+      "#FFFFFF",
+      "#000000"
+    ],
+    "Notes": "Toon shader with black outlines."
+  },
+  {
+    "ShaderID": "SH003",
+    "Name": "Metallic",
+    "Style": "PBR",
+    "ColorPalette": [
+      "#AAAAAA",
+      "#888888"
+    ],
+    "Notes": "Reflective metallic look for robots or armors."
+  },
+  {
+    "ShaderID": "SH004",
+    "Name": "Frosted Glass",
+    "Style": "Translucent",
+    "ColorPalette": [
+      "#DDDDDD",
+      "#AAAAAA"
+    ],
+    "Notes": "For icy or frozen environments."
+  },
+  {
+    "ShaderID": "SH005",
+    "Name": "Lava Flow",
+    "Style": "Animated",
+    "ColorPalette": [
+      "#FF4500",
+      "#800000"
+    ],
+    "Notes": "Used for volcanic settings."
+  },
+  {
+    "ShaderID": "SH006",
+    "Name": "Water Ripple",
+    "Style": "Reflective",
+    "ColorPalette": [
+      "#0000FF",
+      "#00CED1"
+    ],
+    "Notes": "Surface shader for water bodies."
+  },
+  {
+    "ShaderID": "SH007",
+    "Name": "Wood Grain",
+    "Style": "Textured",
+    "ColorPalette": [
+      "#8B4513",
+      "#A0522D"
+    ],
+    "Notes": "Natural wood look for buildings."
+  },
+  {
+    "ShaderID": "SH008",
+    "Name": "Sand",
+    "Style": "Rough",
+    "ColorPalette": [
+      "#DEB887",
+      "#F4A460"
+    ],
+    "Notes": "Grainy desert look."
+  },
+  {
+    "ShaderID": "SH009",
+    "Name": "Electric Pulse",
+    "Style": "Animated",
+    "ColorPalette": [
+      "#FFFF00",
+      "#00FF00"
+    ],
+    "Notes": "Pulsating lines for high energy fields."
+  },
+  {
+    "ShaderID": "SH0010",
+    "Name": "Ghostly Mist",
+    "Style": "Translucent",
+    "ColorPalette": [
+      "#C0C0C0",
+      "#E0E0E0"
+    ],
+    "Notes": "Ethereal look for supernatural areas."
+  }
+]

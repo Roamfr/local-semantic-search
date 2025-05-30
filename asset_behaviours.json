@@ -1,0 +1,101 @@
+[
+  {
+    "BID": "AB001",
+    "Name": "Patrol",
+    "Description": "NPC moves back and forth between waypoints.",
+    "Variables": {
+      "speed": 2.0,
+      "waitTime": 1.5,
+      "loop": true
+    }
+  },
+  {
+    "BID": "AB002",
+    "Name": "Chase Player",
+    "Description": "NPC chases the player when in range.",
+    "Variables": {
+      "detectionRange": 10.0,
+      "chaseSpeed": 3.5,
+      "aggression": 0.8
+    }
+  },
+  {
+    "BID": "AB003",
+    "Name": "Shoot Projectile",
+    "Description": "Fires a projectile at intervals.",
+    "Variables": {
+      "fireRate": 1.0,
+      "projectileSpeed": 6.0,
+      "ammoCapacity": 10
+    }
+  },
+  {
+    "BID": "AB004",
+    "Name": "Hide",
+    "Description": "NPC hides when player is near.",
+    "Variables": {
+      "hideDuration": 5.0,
+      "triggerDistance": 8.0,
+      "stealth": true
+    }
+  },
+  {
+    "BID": "AB005",
+    "Name": "Heal Ally",
+    "Description": "Heals nearby allies.",
+    "Variables": {
+      "healAmount": 10.0,
+      "range": 5.0,
+      "cooldown": 6.0
+    }
+  },
+  {
+    "BID": "AB006",
+    "Name": "Place Trap",
+    "Description": "Places a trap at its feet.",
+    "Variables": {
+      "trapCooldown": 4.0,
+      "trapDamage": 20.0,
+      "triggerRadius": 1.5
+    }
+  },
+  {
+    "BID": "AB007",
+    "Name": "Idle",
+    "Description": "Stays in place, occasionally animating.",
+    "Variables": {
+      "idleTime": 10.0,
+      "loopAnimation": true
+    }
+  },
+  {
+    "BID": "AB008",
+    "Name": "Taunt",
+    "Description": "Taunts the player to draw aggro.",
+    "Variables": {
+      "range": 7.0,
+      "cooldown": 4.0,
+      "effectDuration": 3.0
+    }
+  },
+  {
+    "BID": "AB009",
+    "Name": "Flee",
+    "Description": "Runs away from the player when low on health.",
+    "Variables": {
+      "healthThreshold": 0.3,
+      "fleeSpeed": 4.0,
+      "pathType": "random"
+    }
+  },
+  {
+    "BID": "AB0010",
+    "Name": "Call Reinforcements",
+    "Description": "Summons allies when in danger.",
+    "Variables": {
+      "cooldown": 15.0,
+      "reinforcementCount": 2,
+      "alertRadius": 10.0
+    }
+  }
+]
